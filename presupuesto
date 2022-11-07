@@ -129,16 +129,16 @@ let auto = prompt("Seleccione el tamaño del vehiculo")
 if (auto == "chico" || auto == "hatchback" || auto == "sedan" || auto == "suv" || auto == "pickup") {
     switch (auto) {
         case "chico":
-            precio = 1.15;
+            aumento = 1.15;
             break;
         case "hatchback":
-            precio = 1.20;
+            aumento = 1.20;
             break;
         case "sedan":
-            precio = 1.25;
+            aumento = 1.25;
             break;
         case "suv":
-            precio = 1.30;
+            aumento = 1.30;
             break;
         case "pickup":
             precio = 1.35;
