@@ -1,3 +1,6 @@
+let presupuesto
+
+
 // Clase persona para ingresar cliente
 class Personas {
     constructor(nombre, apellido,) {
@@ -111,8 +114,11 @@ if (tratamiento == "Acrilico" || tratamiento == "Ceramico3" || tratamiento == "C
             precio = 100000;
             break;
 
+    
     }
 }
+
+let seleccion2
 
 if (seleccion2 == "si") {
     alert("Vehiculos disponibles")
@@ -144,6 +150,21 @@ if (auto == "chico" || auto == "hatchback" || auto == "sedan" || auto == "suv" |
             precio = 1.35;
             break;
 
-
     }
+
+  //  presupuesto.push({auto, tratamiento})
+    //console.log(presupuesto)
+}else{
+    alert("no coincide")
+}
+
+function presupuestoFinal(){
+presupuesto = alert(auto * tratamiento);
+
+let = flag
+flag = prompt("¿Desea realizar otro presupuesto? SI/NO");
+            console.log("flag",flag);
+
+
+presupuestoFinal();
 }
